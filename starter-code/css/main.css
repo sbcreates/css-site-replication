@@ -10,7 +10,72 @@ light blue: #1c5380
 }
 
 body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
   background-color: white;
+}
+
+
+.container {
+  margin: 90px auto;
+  width: 880px;
+}
+
+.main {
+  float: right;
+}
+
+.logo {
+  padding: 15px 0;
+}
+
+.about {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.about-info {
+  width: 424px;
+  height: 284px;
+}
+
+.about-info h1 {
+  color: #06365f;
+  font-size: 27px;
+  line-height: 1.3em;
+  padding-bottom: 10px;
+}
+
+.about-info p {
+  padding: 5px 0;
+}
+
+.badges {
+  padding-top: 30px;
+}
+
+.badges a {
+  padding-right: 10px;
+}
+
+.navbar {
+  padding-bottom: 50px;
+  width: 880px;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1c5380;
+  padding: 0 10px;
 }
